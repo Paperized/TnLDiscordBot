@@ -2,6 +2,7 @@ from shared import BOT, BOT_TREE, DB, EVENT_SCHEDULER, create_event_trigger, MIN
 import get_points # needed to register points commands
 import events # needed to register events commands
 from events import on_event_started
+import http_webhooks
 from datetime import datetime, timedelta
 
 def schedule_events_timers():
